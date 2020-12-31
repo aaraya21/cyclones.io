@@ -1,7 +1,5 @@
-export default function Index() {
-    return (
-        <div>
-            <p>Hello Next.js</p>
-        </div>
-    );
-}
+import Layout from "../components/Layout";
+
+const Index = () => <Layout>Welcome to Cyclones.io!</Layout>;
+
+export default Index;
